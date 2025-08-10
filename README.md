@@ -36,6 +36,7 @@ brew install gmp libomp
 
 
 Example: Calculate 1,000,000 digits of π using 4 threads
+
 OMP_NUM_THREADS=4 OMP_DYNAMIC=FALSE OMP_PROC_BIND=TRUE ./pi_chud_omp_plus 1000000
 
 ## Output:
